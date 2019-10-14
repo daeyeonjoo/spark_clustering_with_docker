@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Spark-Master
+spec:
+  selector:
+    matchLabels:
+      app: master
+  template:
+    metadata:
+      labels:
+        app: master
+    spec:
+      containers:
+      - name: master
+        image: daeyeonjoo/spark_master:2.4.4
+        ports:
+        - containerPort: 7077
+        - containerPort: 8080
