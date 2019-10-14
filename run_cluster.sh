@@ -10,8 +10,8 @@ docker run -d \
            daeyeonjoo/spark_master:2.4.4
 
 docker run -d \
-           --name spark-worker4 \
-           --hostname spark-worker4 \
+           --name spark-worker1 \
+           --hostname spark-worker1 \
            --network spark_network \
            -e MASTER_URL=spark://spark-master:7077 \
            daeyeonjoo/spark_slave:2.4.4
