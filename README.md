@@ -6,14 +6,6 @@ Docker를 기반으로 Spark의 Master와 Worker를 구성한다. 새로운 Work
 
 
 
-## 클러스터 구성 및 실행
-
-```bash
-./run_cluster.sh
-```
-
-위 스크립트를 실행하면 1개의 Master, 1개의 Worker 노드로 구성된 Spark 클러스터가 만들어 진다.
-
 
 
 ## 샘플 앱 실행 및 결과 확인
@@ -26,7 +18,30 @@ Docker를 기반으로 Spark의 Master와 Worker를 구성한다. 새로운 Work
 
 
 
-## 새로운 워커 노드 추가
+## 클러스터 실행 (docker-compose)
+
+```bash
+docker-compose up
+docker-compose up --scale spark-slave=3
+```
+
+Docker-compose를 이용해 클러스터를 실행할 수 있다. 이 경우 --scale 옵션을 활용해 slave의 갯수를 조절할 수 있다.
+
+
+
+## 클러스터 실행 (docker)
+
+### 클러스터 구성 및 실행
+
+```
+./run_cluster.sh
+```
+
+위 스크립트를 실행하면 1개의 Master, 1개의 Worker 노드로 구성된 Spark 클러스터가 만들어 진다.
+
+
+
+### 새로운 워커 노드 추가
 
 ```bash
 docker run -d \
@@ -43,7 +58,7 @@ docker run -d \
 
 
 
-## 클러스터 삭제
+### 클러스터 삭제
 
 ```bash
 ./shutdown_cluster.sh
