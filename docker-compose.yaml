@@ -1,0 +1,25 @@
+version: "3.3"
+services:
+  spark-master:
+    image: daeyeonjoo/spark_master:2.4.4
+    hostname: spark-master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    networks:
+      - spark-network
+  spark-slave:
+    image: daeyeonjoo/spark_slave:2.4.4
+    depends_on:
+      - spark-master
+    ports:
+      - 8080
+    networks:
+      - spark-network
+    environment: 
+      - "MASTER_URL=spark://spark-master:7077"
+networks:
+  spark-network:
+    driver: bridge
+    ipam:
+      driver: default
