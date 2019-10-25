@@ -2,7 +2,7 @@
 
 ## Overview
 
-Docker를 기반으로 Spark의 Master와 Worker를 구성한다. 새로운 Worker 노드는 새로운 Slave 이미지를 실행함으로써 가능하다.
+Docker를 기반으로 Spark의 Master와 Worker를 구성한다. 새로운 Worker 노드는 새로운 Slave 이미지를 실행함으로써 가능하다.a
 
 
 
