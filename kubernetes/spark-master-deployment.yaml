@@ -18,4 +18,31 @@ spec:
         - containerPort: 7077
         - containerPort: 8080
 
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Spark-Slave
+spec:
+  selector:
+    matchLabels:
+      app: slave
+  template:
+    metadata:
+      labels:
+        app: slave
+    spec:
+      containers:
+      - name: slave
+        image: daeyeonjoo/spark_slave:2.4.4
+        ports:
+        - containerPort: 7077
+        - containerPort: 8080
+        env:
+        - MASTER_URL: spark://spark-master:7077
+
+
+
+
 

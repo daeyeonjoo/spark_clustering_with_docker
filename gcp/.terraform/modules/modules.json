@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"vpc","Source":"./modules/vpc","Dir":"modules/vpc"},{"Key":"spark","Source":"./modules/spark","Dir":"modules/spark"},{"Key":"","Source":"","Dir":"."},{"Key":"global","Source":"./modules/global","Dir":"modules/global"}]}

@@ -8,6 +8,8 @@ services:
       - "7077:7077"
     networks:
       - spark-network
+    environment: 
+      - "LOCAL_IP=127.0.0.1"
   spark-slave:
     image: daeyeonjoo/spark_slave:2.4.4
     depends_on:

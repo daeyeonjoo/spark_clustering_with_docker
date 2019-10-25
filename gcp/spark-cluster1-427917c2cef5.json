@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spark-cluster1-256809",
+  "private_key_id": "427917c2cef5ece3cd328c5c7272abaa501cc81f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQj3P0OR19l6AF\n8wcZMzKdM0s5Gbj/v22qULhqKwftWTvf14oJ8o+65YZ7KLld1NrJPNZYHDzt92EM\nPWhMJTAa80VmbUN3cPZ54RNpbEd222/fFofii0nS60VDAHtIviux2hsrgLBtGVTP\n/s6n451qDrNkBrPC0qmbqctsT65GXHFdML8V3wJ3NcLN1BuDJEO2Vu6feudHMqaE\nKiqfoyJmhpsFNIrpSdNax8qpJaWQL6E0MZXhXLFyVfUYvbFgrdbXsvsfofuYadoK\nBK3N7oMNZy7o8XZjSQvQ5IN+AjH2Bxb4xW+vZm4zDEkwPRV7V2t+PHhN/4289c2H\n6geMYO59AgMBAAECggEAHf23ArRw53XVou1hBLBuU5lD9LTce9h7DG4Zqti/xdOa\nbtS3qrkJDqsBdPX0/AeHI7+eIiMDZwP3HnO5KxQA8Csx/GnzdPpXU0z4xeT2fOLO\n2lGK3lrB1bUT62/nCp2gOm3fENkrZbDqF5Pwg0eRxCXTiauGD5rMHZCj6lImAUN4\n22VNPYUTs6QZf1Lxf4q+bR4Xx/ez2vv4uY5JnEf0gtG3HD6NGTBQ7Fm+yatQHsKw\nlvucXhZs9mFxz4EXb6mVZT2b0te+Gp1vNsJOGCXDi2shV/7uS+VcbO0lKOS78Gb4\nVHTLb/f6FUoXUhC4nmyA8t/oylj2yfD42uQooEswKQKBgQDxjuXwhzlbYK5s02Yb\nXrZZiKC6c4rbyHhIN0kqmYwGlmCpLoUrrT3+k4kDjXt76/L+uAdUOQm8VTy0Udf/\nMFs2WQ8MIxkB/yPcDeJuU3DR8SSZ5rqKu/lAcdZbMDXo2EEbmaK9mWB8QPCDBDl7\n1vw+U3gwtI/wZRMgymsc5lZyVQKBgQDdB4P9d6ofNvfDhN2byRIDXQKuDgDgtqgR\nWBOwuTikM+NeIrnm/lh4o/DqUJx/hLfeO/ieTvQUROqwVX2H2MlOAmDyCXTeSgq3\n3NcjBMsamn46HVZLM2KcPaYD5zPcDJ1wsCDYN5KzWI83zSSNRYzzeV6X+/Bvn0Po\nLAFUj+vDiQKBgQCN2WFT5sSa0WJ8S4O5bNveJepkszcGq2le1wBjQLnGoIXws33G\nUTyHg3HBIVMzSTJvu/ep0LjT3KYCKdGSbH4Toya/9NhZoM8ZCRo/uUYWMupQafp/\nP7U1z+OVtvDhZCSPpZ+4gRn0vVm/RjrPa0bC/tckmtOv0lryNYvC88wt5QKBgQDZ\nukOM9coBgbZDRai/gyxZX8/6ARVgRs38d9S9q1deeTaqTm7uWvJvtJ7nUo03GFe/\ndTgNSh0pslG1biGAJk72p2U0R5h2OF2ijMroVhp0lGdve+K7pVyoKBpXkfMF+u9E\nSFuyYdwDC2PZRh2RhEe6t341HRrV+f98v4x37mYCcQKBgQDco79dDmslVDzVvtA8\nGQIll8+iqImLRI98efJD2VLBwLuhiWm2k1jg7rElRy9NINxcA/x5qDvx2+Y/YJkK\nURgqctXWgmW1jD2TxgowkrpZneW2OLihq0UPyyEmHMpX0Acq4ePQL8XHzSdX6DLL\nAtQa35TT+oYjmguQXPmxH7aRcg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@spark-cluster1-256809.iam.gserviceaccount.com",
+  "client_id": "103890407205615153768",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40spark-cluster1-256809.iam.gserviceaccount.com"
+}
